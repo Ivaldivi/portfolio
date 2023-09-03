@@ -15,16 +15,37 @@
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    justify-content: space-between;
   }
-  
+
+  .column:first-of-type {
+    flex-direction: row; 
+    justify-content: center;
+  }
+
   #name-and-photo {
     display:flex;
     position:fixed;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    text-align: center;
   }
 
-  p {
+  #name-and-photo h1{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+  }
+  .anchor-links {
+    background-color:#ED7D3A;
+    text-align: center;
+    text-justify:distribute;
+    margin-right: 20px;
+    font-family:  Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+  }
+
+  .img {
+    box-shadow: 5px 5px 5px #ccc;
   }
