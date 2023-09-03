@@ -1,7 +1,7 @@
-.wrapper {
+  .wrapper {
     margin: 50px;
-}
-  
+  }
+
   .row {
     display: flex;
     flex-direction: row;
@@ -9,6 +9,7 @@
     width: 100%;
   }
   
+
   .column {
     display: flex;
     flex-direction: column;
@@ -16,4 +17,14 @@
     flex: 1;
   }
   
-  
+  #name-and-photo {
+    display:flex;
+    position:fixed;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  p {
+    text-align: center;
+  }
