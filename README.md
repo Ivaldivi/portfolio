@@ -5,4 +5,4 @@
 
 This living document serves as my portfolio. I've designed it using vanilla HTML & CSS. 
 
-Take a look aroun, stay a while!
+Take a look around, stay a while!
