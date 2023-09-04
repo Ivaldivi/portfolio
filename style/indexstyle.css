@@ -1,3 +1,6 @@
+  html {
+    scroll-behavior: smooth;
+  }
   .wrapper {
     margin: 50px;
   }
