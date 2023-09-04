@@ -1,5 +1,3 @@
-
-@media only screen and (max-width: 600px) {
   .wrapper {
     margin: 50px;
   }
@@ -39,13 +37,15 @@
     align-items: center;
   }
   .anchor-links {
-    background-color:#ED7D3A;
+    background-color: #27657C;
     text-align: center;
     text-justify:distribute;
     margin-right: 20px;
     border-radius: 5px;
     font-weight: 500;
     font-size: medium;
+    color:white;
+    padding:5px;
   }
 
   .img {
@@ -82,27 +82,43 @@ p{
 }
 
 #social-media-links {
-  margin-top: 25px;
+  margin-top: 35px;
 }
+#desktop-maintain {
+  display:block;
+}
+#phone-maintain {
+  display:none;
+}
+
 #headshot {
   margin-top: 20px;
+  border-radius: 50px;
+  width:300px; 
+  height:400px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 20px 20px rgba(0, 0, 0, 0.12);
 }
 
-}
-
-@media only screen and (max-width: 1200px){
+@media screen and (max-width: 600px) {
   .wrapper {
     margin: 50px;
+    display:flex;
+    justify-content: center;
   }
-
+  
   .row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
   }
   
-
   .column {
     display: flex;
     flex-direction: column;
@@ -118,11 +134,17 @@ p{
 
   #name-and-photo {
     display:flex;
-    position:fixed;
+    position:relative;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
     text-align: center;
+    align-self: center;
+  }
+
+  #rightdiv {
+    display:flex;
+    align-items: center;
   }
 
   #name-and-photo h1{
@@ -130,13 +152,15 @@ p{
     align-items: center;
   }
   .anchor-links {
-    background-color:#ED7D3A;
+    background-color: #27657C;
     text-align: center;
     text-justify:distribute;
-    margin-right: 20px;
+    margin-right: 0px;
     border-radius: 5px;
     font-weight: 500;
     font-size: medium;
+    color:white;
+    padding:4px;
   }
 
   .img {
@@ -147,7 +171,7 @@ p{
     padding: 3px; 
     border-radius:5px; 
     color: black; 
-    background-color: lightblue;
+    background-color: #add8e6;
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 10px;
@@ -160,23 +184,44 @@ p{
     
   }
 
-* {
-  font-family: Work sans;
-}
+  * {
+    font-family: Work sans;
+  }
 
-p{
-  color: lightgrey;
-}
+  p{
+    color: lightgrey;
+  }
 
-#githublink {
-  color: lightblue;
-}
+  #githublink {
+    color: lightblue;
+  }
 
-#social-media-links {
-  margin-top: 25px;
-}
-#headshot {
-  margin-top: 20px;
-}
+  #social-media-links {
+    margin-top: 25px;
+    z-index: 15;
+  }
+
+  #headshot {
+    margin-top: 20px;
+    width:150px;
+    height:200px;
+    align-self: center;
+    border-radius: 25px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 20px 20px rgba(0, 0, 0, 0.12);
+  }
+  #phone-maintain {
+    display:block;
+    text-align: center;
+  }
+  #desktop-maintain {
+    display:none;
+    
+  }
 
 }
