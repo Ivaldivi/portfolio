@@ -48,14 +48,20 @@
     font-weight: 500;
     font-size: medium;
     padding:5px;
+    transition: .3s ease-in-out;
+  }
 
-
+  .anchor-links:hover {
+    background-color:rgb(255, 255, 255);
+    color:#27657C;
   }
   h4 a {
     color:white;
   }
   h4 a:hover{
-    color:white;
+    color:#27657C;
+    text-decoration: none;
+
   }
   .img {
     box-shadow: 5px 5px 5px #ccc;
@@ -130,7 +136,7 @@ p{
 }
 
 .bold-about:hover {
-  box-shadow: inset 300px 0 0 0 #27657C;
+  box-shadow: inset 350px 0 0 0 #27657C;
   color:white;
 }
 
