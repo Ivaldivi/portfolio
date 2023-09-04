@@ -105,6 +105,15 @@ p{
   0 20px 20px rgba(0, 0, 0, 0.12);
 }
 
+#about-me {
+  margin-top: 35px;
+}
+
+#about-me-text {
+  color: darkslategray;
+}
+
+
 @media screen and (max-width: 600px) {
   .wrapper {
     margin: 50px;
