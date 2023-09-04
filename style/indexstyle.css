@@ -50,7 +50,12 @@
     color:white;
     padding:5px;
   }
-
+  h4 a {
+    color:white;
+  }
+  h4 a:hover{
+    color:white;
+  }
   .img {
     box-shadow: 5px 5px 5px #ccc;
   }
@@ -113,7 +118,12 @@ p{
 }
 
 #about-me-text {
-  color: darkslategray;
+  color: grey;
+}
+
+.bold-about {
+  color:#27657C;
+  font-weight: 600;
 }
 
 
