@@ -1,3 +1,5 @@
+
+@media only screen and (max-width: 600px) {
   .wrapper {
     margin: 50px;
   }
@@ -42,6 +44,8 @@
     text-justify:distribute;
     margin-right: 20px;
     border-radius: 5px;
+    font-weight: 500;
+    font-size: medium;
   }
 
   .img {
@@ -66,5 +70,113 @@
   }
 
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Work sans;
+}
+
+p{
+  color: lightgrey;
+}
+
+#githublink {
+  color: lightblue;
+}
+
+#social-media-links {
+  margin-top: 25px;
+}
+#headshot {
+  margin-top: 20px;
+}
+
+}
+
+@media only screen and (max-width: 1200px){
+  .wrapper {
+    margin: 50px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    justify-content: space-between;
+  }
+
+  .column:first-of-type {
+    flex-direction: row; 
+    justify-content: center;
+  }
+
+  #name-and-photo {
+    display:flex;
+    position:fixed;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    text-align: center;
+  }
+
+  #name-and-photo h1{
+    text-align: center;
+    align-items: center;
+  }
+  .anchor-links {
+    background-color:#ED7D3A;
+    text-align: center;
+    text-justify:distribute;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: medium;
+  }
+
+  .img {
+    box-shadow: 5px 5px 5px #ccc;
+  }
+
+  #resume {
+    padding: 3px; 
+    border-radius:5px; 
+    color: black; 
+    background-color: lightblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+  }
+
+  .resume {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+* {
+  font-family: Work sans;
+}
+
+p{
+  color: lightgrey;
+}
+
+#githublink {
+  color: lightblue;
+}
+
+#social-media-links {
+  margin-top: 25px;
+}
+#headshot {
+  margin-top: 20px;
+}
+
 }
