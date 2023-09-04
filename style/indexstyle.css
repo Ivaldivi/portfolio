@@ -47,8 +47,9 @@
     border-radius: 5px;
     font-weight: 500;
     font-size: medium;
-    color:white;
     padding:5px;
+
+
   }
   h4 a {
     color:white;
@@ -124,6 +125,13 @@ p{
 .bold-about {
   color:#27657C;
   font-weight: 600;
+  box-shadow: inset 0 0 0 0 #27657C;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.bold-about:hover {
+  box-shadow: inset 300px 0 0 0 #27657C;
+  color:white;
 }
 
 
