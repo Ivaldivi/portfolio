@@ -139,7 +139,7 @@ p{
 }
 
 .bold-about:hover {
-  box-shadow: inset 350px 0 0 0 #27657C;
+  background-color: #27657C;
   color:white;
 }
 
