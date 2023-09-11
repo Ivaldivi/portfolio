@@ -147,6 +147,32 @@ iframe {
   height:500px;
 }
 
+.dark-subtext {
+  color: grey;
+}
+
+.column.resume-text {
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.dark-subtext:nth-child(2) {
+  padding-left: 15px;
+}
+
+h5 {
+  color: #46494C;
+}
+.macalester-content-resume, .edina-content-resume {
+  padding-left: 15px;
+}
+ul {
+  padding-left: 20px;
+}
+
+.subtext {
+  color:#ADADAD;
+}
 
 @media screen and (max-width: 600px) {
   .wrapper {
