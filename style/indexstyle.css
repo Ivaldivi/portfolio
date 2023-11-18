@@ -39,6 +39,14 @@
     text-align: center;
     align-items: center;
   }
+
+  .experience-name { 
+    color: #27657C;
+    font-weight: 500;
+    font-size: large;
+    margin-bottom: 0;
+  }
+
   .anchor-links {
     background-color: #27657C;
     text-align: center;
@@ -178,6 +186,10 @@ ul {
 .subtext {
   color:#ADADAD;
 }
+.subtext-resume {
+  color:#ADADAD;
+  margin-left: 15px;
+}
 
 div>h3:first-of-type{
   margin-top: 25px;
@@ -306,5 +318,7 @@ div>h3:first-of-type{
     width:300px;
     height:200px;
   }
+
+ 
 
 }
