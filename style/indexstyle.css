@@ -179,7 +179,9 @@ ul {
   color:#ADADAD;
 }
 
-
+div>h3:first-of-type{
+  margin-top: 25px;
+}
 
 @media screen and (max-width: 600px) {
   .wrapper {
